@@ -4,7 +4,7 @@ import "./Expenses.css";
 function Expenses(props) {
 
   return (
-    <div>
+    <div className="expenses">
       <ExpenseItem
         title={props.array[0].title}
         amount={props.array[0].amount}
